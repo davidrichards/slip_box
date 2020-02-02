@@ -1,5 +1,6 @@
 import os,pickle,re,shutil,sys,zlib
 
+from configobj import ConfigObj
 from contextlib import contextmanager
 import datetime as dt
 from datetime import datetime
@@ -41,3 +42,10 @@ def check_equals(a, b, **kw):
     Can handle 1 or n-dimensional objects."""
     kw = {**kw, **{'atol': 0, 'message': f"Expected {a} to equal {b}."}}
     return check_is_near(a, b, **kw)
+
+def remove_file(path):
+    """Helper function to remove a file if it exists.
+    Useful for testing."""
+    path = str(path)
+    if os.path.exists(path):
+        os.unlink(path)
