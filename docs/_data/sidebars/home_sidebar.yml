@@ -10,6 +10,9 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
+      title: Indexes
+      url: /00.00.indexes
+    - output: web,pdf
       title: Slip Box
       url: /00.core
     output: web

@@ -1,6 +1,7 @@
 {
   "slip_box": {
     "Overview": "/",
+    "Indexes": "/00.00.indexes",
     "Slip Box": "/00.core"
   }
 }

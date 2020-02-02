@@ -2,9 +2,17 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {}
+index = {"integer_to_alpha": "00.00.indexes.ipynb",
+         "letter_to_value": "00.00.indexes.ipynb",
+         "alpha_to_integer": "00.00.indexes.ipynb",
+         "alphabet": "00.00.indexes.ipynb",
+         "is_integer": "00.00.indexes.ipynb",
+         "validate_index": "00.00.indexes.ipynb",
+         "next_index": "00.00.indexes.ipynb",
+         "next_child": "00.00.indexes.ipynb",
+         "to_filename": "00.00.indexes.ipynb"}
 
-modules = []
+modules = ["indexes.py"]
 
 doc_url = "https://davidrichards.github.io/slip_box/"
 
