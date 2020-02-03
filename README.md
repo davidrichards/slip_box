@@ -9,12 +9,18 @@ Here is the idea:
 * curate permanent notes
 * keep citations
 
-That's what we do, but organizing it a little is useful. What I do is:
+Why? It's easier to focus. I'm more productive. I'm more creative. I'm more collaborative. Hard problems have well-known and tractable research approaches that break things down and give me a reusable mindspace. It's kind of cool. The practice comes from Niklas Luhmann's prolific academic career and is well-explained in Sönke Ahrens' book, [How to Take Smart Notes](https://takesmartnotes.com/).
 
-* index my notes (1, 1.a, 1.a.1, 1.b)
-* keep things in a backed up volume (like a Dropbox volume)
-* ensure I have search
-* gather notes when I'm writing an article or working on some code
+Why not use one of the million existing and really good note systems? I've used many of them, and they're very good at getting the information collected, but not as good at using it again when curating my notes or preparing an early draft of an article. For the last year or two I've written scripts to make it easier to store plain-text notes from the command line. This project is an upgrade to those scripts.
+
+Why not use Jupyter Notebooks or blog articles? I find that a humble note is more likely to be useful than a finished product. I tend to protect something that took a lot of effort to build, like a data demonstration. The notes in there feel precious. I'm not likely to dig through them and reuse parts, or change them when I'm working on an article. If the notes are simple, they don't get in my way.
+
+What I do to make things useful is:
+
+* index my notes with a filename, e.g. 1.a.tell_it_like_it_is.md
+* keep plain-text notes in a backed up volume (like a Dropbox or Google Drive volume)
+* ensure I can search my notes
+* create an outline that I can export as an early draft for an article
 
 ## Install
 
