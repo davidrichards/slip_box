@@ -107,10 +107,10 @@ def next_child(current, separator='.', default='1', alphabet=alphabet, **kw):
 
 # Cell
 
-def to_filename(s, reference=None, index=None, child=False, separator=".", suffix="md", **kw):
+def to_filename(s, reference=None, index=None, child=False, index_separator=".", title_separator="_", suffix="md", **kw):
     s = str(s).casefold()
-    title = separator.join(s.split())
+    title = title_separator.join(s.split())
     if index is None:
         fn = next_child if child else next_index
-        index = fn(reference, separator=separator, **kw)
-    return f"{index}{separator}{title}.{suffix}"
+        index = fn(reference, separator=index_separator, **kw)
+    return f"{index}.{title}.{suffix}"
